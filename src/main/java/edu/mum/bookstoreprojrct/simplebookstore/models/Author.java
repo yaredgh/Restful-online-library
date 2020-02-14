@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@Table(name = "Author")
 public class Author extends Person{
 
     @OneToMany(mappedBy = "author")
